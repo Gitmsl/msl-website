@@ -12,10 +12,18 @@
 
 .topLeft, .topRight {
     flex: 3;
-    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topSocialIcon {
+    font-size: 40px;
+    margin-right: 10px;
+    color: #444;
+    cursor: pointer;
 }
 
 .topCenter {
     flex: 6;
-    background-color: fuchsia;
 }
