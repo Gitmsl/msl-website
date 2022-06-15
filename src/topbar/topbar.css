@@ -18,12 +18,33 @@
 }
 
 .topSocialIcon {
-    font-size: 40px;
-    margin-right: 10px;
+    font-size: 38px;
+    margin-right: 20px;
     color: #444;
     cursor: pointer;
 }
 
 .topCenter {
     flex: 6;
+}
+
+.topList {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topListItem {
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.topSearchIcon {
+    font-size: 20px;
+    color: #444;
+    cursor: pointer;
 }
