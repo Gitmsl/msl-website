@@ -1,7 +1,69 @@
-.top{
+* {
+    background-color: rgb(30, 30, 30);
+}
+
+.top{ /*Mobile first layout*/
     width: 100%;
     height: 50px;
-    background-color: white;
+    background-color: rgb(255, 62, 62);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.topLeft, .topRight {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topSocialIcon {
+    font-size: 2em;
+    margin-right: 8px;
+    margin-left: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+.topCenter {
+    flex: 6;
+}
+
+.topList {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+
+.topListItem {
+    margin-right: 5vw;
+    margin-left: 1.5vw;
+    font-size: .85em;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.topSearchIcon {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 480px) { /* for screens b/w large smartphones & tablet*/
+    .top{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(141, 139, 255); /* Color change to make screen size apparent*/
     position: sticky;
     top: 0;
     display: flex;
@@ -18,9 +80,9 @@
 }
 
 .topSocialIcon {
-    font-size: 38px;
-    margin-right: 20px;
-    color: #444;
+    font-size: 2em;
+    margin-right: 18px;
+    color: white;
     cursor: pointer;
 }
 
@@ -38,13 +100,67 @@
 
 .topListItem {
     margin-right: 20px;
-    font-size: 20px;
+    font-size: 200%;
     font-weight: 300;
     cursor: pointer;
 }
 
 .topSearchIcon {
-    font-size: 20px;
-    color: #444;
+    font-size: 1.5em;
+    color: white;
     cursor: pointer;
+}
+}
+
+@media screen and (min-width: 768px) { /*larger than tablet size screens*/
+    .top{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(43, 39, 252); /* Color change to make screen size apparent*/
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.topLeft, .topRight {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topSocialIcon {
+    font-size: 2em;
+    margin-right: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+.topCenter {
+    flex: 6;
+}
+
+.topList {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topListItem {
+    margin-right: 20px;
+    font-size: 200%;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.topSearchIcon {
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+}
 }
