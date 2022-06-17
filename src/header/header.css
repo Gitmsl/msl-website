@@ -1,6 +1,7 @@
 
 .head {
     display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 75vh;
     align-items: center;
@@ -8,8 +9,18 @@
     background-color: aqua;
 }
 
-h1 {
-    
+.michaelPic {
+    width: 20%;
+    height: 20%;
+}
+.name {
+    margin: .6em 0em 0em;
+    color: rgb(15, 114, 15);
+}
+
+.title {
+    margin:  .1em 0em;
+    color:rgb(80, 85, 231);
 }
 
 .headText {
