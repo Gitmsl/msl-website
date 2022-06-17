@@ -1,0 +1,19 @@
+
+.head {
+    display: flex;
+    width: 100vw;
+    height: 75vh;
+    align-items: center;
+    color: white;
+    background-color: aqua;
+}
+
+h1 {
+    
+}
+
+.headText {
+    width: 100%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
