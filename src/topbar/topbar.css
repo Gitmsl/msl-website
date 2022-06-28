@@ -62,7 +62,7 @@
 @media screen and (min-width: 480px) { /* for screens b/w large smartphones & tablet*/
     .top{
     width: 100%;
-    height: 50px;
+    height: auto;
     /* background-color: rgb(141, 139, 255); Color change to make screen size apparent */
     position: sticky;
     top: 0;
