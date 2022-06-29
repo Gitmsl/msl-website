@@ -22,11 +22,16 @@
 .name {
     margin: .6em 0em 0em;
     color: rgb(255, 255, 255);
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
 }
 
 .title {
     margin:  .1em 0em;
     color:rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
 }
 
 .headText {
