@@ -4,8 +4,8 @@ import './about.css'
 export default function About() {
     return(
         <div className='about'>
-            <h1>About Me</h1>
-            <p>Michael graduated from the University of California, Riverside with
+            <h1 className='aboutTitle'>About Me</h1>
+            <p className='aboutText'>   Michael graduated from the University of California, Riverside with
              a degree in Political Science in 2018, with plans to take a year or two
              off before returning to higher-ed to pursue a PhD with the goal of
              becoming a college professor. A few years and a global pandemic later, 

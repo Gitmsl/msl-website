@@ -1,4 +1,18 @@
 .about {
-    color: red;
+    color: white;
     text-align: center;
+}
+
+.aboutTitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    border-top: 1rem ridge red; /*placeholder section separator*/
+    margin-bottom: 8px;
+}
+
+.aboutText {
+    font-family: 'Inter', sans-serif;
+    margin: 8px 5% 5%;
+    text-align: left;
+    text-indent: 2rem;
 }
