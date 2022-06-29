@@ -15,9 +15,6 @@ export default function TopBar() {
             <li className="topListItem">CONTACT</li>
           </ul>
         </div>
-        <div className="topRight">
-          <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
-        </div>
     </div>
   )
 }

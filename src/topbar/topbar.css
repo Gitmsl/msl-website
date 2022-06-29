@@ -15,7 +15,7 @@
     font-size: 20px;
 }
 
-.topLeft, .topRight {
+.topLeft {
     flex: 3;
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@
 }
 
 .topSocialIcon {
-    font-size: 2em;
+    font-size: 1.7em;
     margin-right: 8px;
     margin-left: 12px;
     color: white;
@@ -51,14 +51,6 @@
     cursor: pointer;
 }
 
-.topSearchIcon {
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 1.2em;
-    color: white;
-    cursor: pointer;
-}
-
 @media screen and (min-width: 480px) { /* for screens b/w large smartphones & tablet*/
     .top{
     width: 100%;
@@ -72,7 +64,7 @@
     font-size: 20px;
 }
 
-.topLeft, .topRight {
+.topLeft {
     flex: 3;
     display: flex;
     align-items: center;
@@ -105,11 +97,6 @@
     cursor: pointer;
 }
 
-.topSearchIcon {
-    font-size: 1.5em;
-    color: white;
-    cursor: pointer;
-}
 }
 
 @media screen and (min-width: 768px) { /*larger than tablet size screens*/
@@ -125,7 +112,7 @@
     font-size: 20px;
 }
 
-.topLeft, .topRight {
+.topLeft {
     flex: 3;
     display: flex;
     align-items: center;
@@ -158,9 +145,4 @@
     cursor: pointer;
 }
 
-.topSearchIcon {
-    font-size: 1.5em;
-    color: white;
-    cursor: pointer;
-}
 }
