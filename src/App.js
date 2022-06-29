@@ -1,6 +1,7 @@
 import TopBar from "./topbar/TopBar"
 import Header from "./header/Header"
 import About from "./about/About"
+import Footer from "./footer/Footer"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <TopBar />
       <Header />
       <About />
+      <Footer />
     </>
   );
 }
