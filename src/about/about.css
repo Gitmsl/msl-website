@@ -6,7 +6,9 @@
 .aboutTitle {
     font-family: 'Oswald', sans-serif;
     font-size: 2.5rem;
-    border-top: 1rem ridge red; /*placeholder section separator*/
+    border: solid 6px ; /*placeholder section separator*/
+    border-image-source: linear-gradient(to bottom right, rgb(66, 205, 255), rgb(0, 0, 255) );
+    border-image-slice: 4;
     margin-bottom: 8px;
 }
 
