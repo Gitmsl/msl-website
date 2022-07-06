@@ -5,8 +5,20 @@ export default function TopBar() {
   return (
     <div className="top">
         <div className="topLeft">
-          <i className="topSocialIcon fa-brands fa-linkedin"></i>
-          <i className="topSocialIcon fa-brands fa-github-square"></i>
+          <a 
+          className="topSocialIcon fa-brands fa-linkedin" 
+          href="https://www.linkedin.com/in/michael-locascio-1b4803178" 
+          target="_blank" 
+          rel="noreferrer"
+          alt="link to LinkedIn account">
+          </a>
+          <a 
+          className="topSocialIcon fa-brands fa-github-square" 
+          href="https://github.com/Gitmsl"
+          target="_blank"
+          rel="noreferrer"
+          alt="link to Github account">
+          </a>
         </div>
         <div className="topCenter">
           <ul className="topList">
