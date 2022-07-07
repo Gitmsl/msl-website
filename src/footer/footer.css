@@ -1,4 +1,17 @@
 .footer {
+    width: 100%;
+}
+.footerText {
     color: white;
+    background-color: rgb(43, 43, 43);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
 }
