@@ -2,13 +2,15 @@
 .head {
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
     /* height: 75vh; */
     align-items: center;
     color: white;
     background-color: rgb(0, 56, 241);
     background-image: url("https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") ;
     background-size: cover;
+    /* background-position: 0; */
+    
 }
 
 .michaelPic {
@@ -18,6 +20,7 @@
     object-fit: cover;
     border-radius: 50%;
 }
+
 .name {
     margin: .6em 0em 0em;
     color: rgb(255, 255, 255);
