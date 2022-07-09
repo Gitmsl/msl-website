@@ -1,20 +1,25 @@
 .resume {
     display:inline-block;
     width: 100%;
+    height: 50px;
     text-align: center;
     margin: 25px 0;
     padding: 10px 0;
 }
 .resumeButton {
-    padding: 15px 15px;
+    padding: 10px 15px;
     color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
     background-color: transparent;
-    border: 6px solid rgb(107, 0, 201); 
+    border: 6px solid;
+    border-image-source: linear-gradient(to bottom right, rgb(217, 47, 255), rgb(79, 0, 224) );
+    border-image-slice: 4; 
     transition: background-color .5s ease-in-out
 }
 
 .resumeButton:hover {
-    background-color:blueviolet;
+    background-color:rgb(141, 27, 255);
     transition: background-color .5s ease-in-out;
-    
 }
