@@ -9,7 +9,7 @@
     border: solid 6px ; /*placeholder section separator*/
     border-image-source: linear-gradient(to bottom right, rgb(66, 205, 255), rgb(0, 0, 255) );
     border-image-slice: 4;
-    margin-bottom: 8px;
+    margin: 0;
 }
 
 .aboutText {
