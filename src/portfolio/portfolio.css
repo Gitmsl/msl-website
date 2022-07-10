@@ -1,0 +1,37 @@
+.portfolio {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 36px;
+}
+
+.portfolioTitle {
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    border: solid 6px ; /*placeholder section separator*/
+    border-image-source: linear-gradient(to bottom right, rgb(66, 205, 255), rgb(0, 0, 255) );
+    border-image-slice: 4;
+    margin: 0 0 8px;
+}
+
+.portfolioItem {
+    flex-basis: 255px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    /* border-radius: 10px; */
+    display: flex;
+    flex-direction: column;
+    padding: 13px;
+    padding-bottom: 20px;
+    margin-bottom: 48px;
+    background-color: rgb(255, 255, 255);
+}
+
+.portfolioImg {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    border-radius: 5px;
+    object-fit: cover;
+}
