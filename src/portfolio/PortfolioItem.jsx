@@ -1,20 +1,18 @@
 import React from "react"
 import "./portfolio.css"
-import imageSrc from '../images/PortfolioSiteSs.png'
 
-export default function PortfolioItem() {
+export default function PortfolioItem(props) {
+    console.log(props)
     return(
-        <div className="portfolioItem">
-                <img src={imageSrc} className="portfolioImg" alt="Project preview"/>
-                <h3 className="projTitle">Project Title</h3>
-                <div className="itemDescription">
-                    <p>Description of project</p>
-                    <ul className="techUsed">
-                        <li>React.js</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                    </ul>
+        <a className="portfolioItem" href={props.projLink} target="_blank" rel="noreferrer">
+        <div>
+                <img src={props.img} className="portfolioImg" alt="Project preview"/>
+                <h3 className="projTitle">{props.projTitle}</h3>
+                <div id="itemText">
+                    <p className="itemDescription">{props.itemDescription}</p>
+                    <p className="techUsed">{props.techUsed}</p>
                 </div>
         </div>
+        </a>
     )
 }

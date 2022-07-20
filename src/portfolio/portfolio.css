@@ -1,15 +1,17 @@
 .portfolio {
     display: flex;
     justify-content: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     gap: 36px;
+    color: white;
+    margin-bottom: 48px;
 }
 
 .portfolioTitle {
-    color: white;
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-size: 2.5rem;
+    color: white;
     border: solid 6px ; /*placeholder section separator*/
     border-image-source: linear-gradient(to bottom right, rgb(66, 205, 255), rgb(0, 0, 255) );
     border-image-slice: 4;
@@ -17,21 +19,54 @@
 }
 
 .portfolioItem {
+    color: white;
     flex-basis: 255px;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
-    /* border-radius: 10px; */
     display: flex;
     flex-direction: column;
     padding: 13px;
     padding-bottom: 20px;
-    margin-bottom: 48px;
-    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    /* margin-bottom: 48px; */
+    border-radius: 3%;
+    background-color: rgb(43, 43, 43);
+    text-decoration: none;
 }
 
 .portfolioImg {
     width: 100%;
     height: auto;
     align-self: center;
-    border-radius: 5px;
     object-fit: cover;
 }
+
+#itemText {
+    height: 94px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+.projTitle {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    border: solid 3px;
+    border-image-source: linear-gradient(to bottom right, rgb(66, 205, 255), rgb(0, 0, 255) );
+    border-image-slice: 4;
+}
+
+.itemDescription {
+    font-size: 16px;
+    padding: 3px 8px;
+}
+
+.techUsed {
+    display: inline-flex;
+    gap: 25px;
+    padding: 0 8px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
