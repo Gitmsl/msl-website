@@ -5,7 +5,7 @@
 
 .aboutTitle {
     font-family: 'Oswald', sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     border: solid 6px ; /*placeholder section separator*/
     border-image-source: linear-gradient(to bottom right, rgb(66, 205, 255), rgb(0, 0, 255) );
     border-image-slice: 4;
@@ -14,7 +14,58 @@
 
 .aboutText {
     font-family: 'Inter', sans-serif;
-    margin: 8px 5%;
+    font-size: 1rem;
+    margin: 18px 10%;
     text-align: left;
     text-indent: 2rem;
+}
+
+@media screen and (min-width: 480px) { /* for screens b/w large smartphones & tablet*/
+    .about {
+        color: white;
+        text-align: center;
+    }
+    
+    .aboutTitle {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+        border: solid 6px ; /*placeholder section separator*/
+        border-image-source: linear-gradient(to bottom right, rgb(66, 205, 255), rgb(0, 0, 255) );
+        border-image-slice: 4;
+        margin: 0;
+    }
+    
+    .aboutText {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.3rem;
+        margin: 18px 10%;
+        text-align: left;
+        text-indent: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) { /*larger than tablet size screens*/
+    .about {
+        color: white;
+        text-align: center;
+    }
+    
+    .aboutTitle {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+        border: solid 6px ; /*placeholder section separator*/
+        border-image-source: linear-gradient(to bottom right, rgb(66, 205, 255), rgb(0, 0, 255) );
+        border-image-slice: 4;
+        margin: 0;
+    }
+    
+    .aboutText {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.5rem;
+        margin: 18px 10%;
+        text-align: left;
+        text-indent: 2rem;
+    }
+
 }
