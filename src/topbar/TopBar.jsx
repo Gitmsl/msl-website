@@ -22,11 +22,19 @@ export default function TopBar() {
         </div>
         <div className="topCenter">
           <ul className="topList">
-            <li className="topListItem">HOME</li>
-            <li className="topListItem">ABOUT</li>
-            <li className="topListItem">CONTACT</li>
+            <li className="topListItem"><a className="linkStyle" href="#top">HOME</a></li>
+            <li className="topListItem"><a className="linkStyle" href="#about">ABOUT</a></li>
+            <li className="topListItem"><a className="linkStyle" href="#bottom">PORTFOLIO</a></li>
           </ul>
         </div>
     </div>
   )
 }
+
+/* <div className="topCenter">
+          <Router className="topList">
+            <Link to="/" className="topListItem"><a className="linkStyle" href="#top">HOME</a></li>
+            <Link to="/about" className="topListItem"><a className="linkStyle" href="#about">ABOUT</a></li>
+            <Link to="/" className="topListItem"><a className="linkStyle" href="#bottom">PORTFOLIO</a></li>
+          </Router>
+</div> */
