@@ -23,8 +23,7 @@ export default function TopBar() {
         <div className="topCenter">
           <ul className="topList">
             <li className="topListItem"><a className="linkStyle" href="#top">HOME</a></li>
-            <li className="topListItem"><a className="linkStyle" href="#about">ABOUT</a></li>
-            <li className="topListItem"><a className="linkStyle" href="#bottom">PORTFOLIO</a></li>
+            <li className="topListItem">MICHAEL.S.LOCASCIO@GMAIL.COM</li>
           </ul>
         </div>
     </div>
