@@ -16,7 +16,7 @@
     border: 6px solid;
     border-image-source: linear-gradient(to bottom right, rgb(217, 47, 255), rgb(79, 0, 224) );
     border-image-slice: 4; 
-    transition: background-color .5s ease-in-out
+    transition: background-color .5s ease-in-out;
 }
 
 .resumeButton:hover {

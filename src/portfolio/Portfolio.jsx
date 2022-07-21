@@ -13,7 +13,7 @@ export default function Portfolio() {
                 projLink="https://github.com/Gitmsl/msl-website"
                 img={portImg}
                 projTitle="Portfolio Website"
-                itemDescription="Personal website built with React to promote myself as a developer!"
+                itemDescription="Personal website built with React to promote myself as a developer"
                 techUsed="HTML, CSS, React"
             />
             <PortfolioItem
