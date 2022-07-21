@@ -16,7 +16,7 @@ export default function Portfolio() {
                 itemDescription="Personal website built with React to promote myself as a developer"
                 techUsed="HTML, CSS, React"
             />
-            <PortfolioItem
+            {/* <PortfolioItem
                 projLink=""
                 img={portImg}
                 projTitle="Project2"
@@ -29,7 +29,7 @@ export default function Portfolio() {
                 projTitle="Project3"
                 itemDescription="Project built for the purpose of solving X problem, provide Y solution"
                 techUsed="HTML, CSS, React"
-            />
+            /> */}
         </div>
         </div>
     )
