@@ -5,21 +5,20 @@
     text-align: center;
     margin: 25px 0;
     padding: 10px 0;
+    background-color: transparent;
 }
 .resumeButton {
-    padding: 10px 15px;
+    padding: 5px 10px;
     color: rgb(255, 255, 255);
-    font-family: 'Inter', sans-serif;
-    font-size: 25px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 18px;
     text-decoration: none;
-    background-color: transparent;
-    border: 6px solid;
-    border-image-source: linear-gradient(to bottom right, rgb(217, 47, 255), rgb(79, 0, 224) );
-    border-image-slice: 4; 
+    background-color: rgb(42, 42, 42);
+    border: 1px solid;
     transition: background-color .5s ease-in-out;
 }
 
 .resumeButton:hover {
-    background-color:rgb(141, 27, 255);
+    background-color: rgb(70, 70, 70);
     transition: background-color .5s ease-in-out;
 }
