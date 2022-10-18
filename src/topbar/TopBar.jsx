@@ -1,5 +1,6 @@
 import React from 'react'
 import "./topbar.css"
+import Resume from "../resume/Resume"
 
 export default function TopBar() {
   return (
