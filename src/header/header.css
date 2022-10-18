@@ -1,36 +1,43 @@
-
+/* Grid layout */
 .head {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(4, 1fr);
     width: 100%;
+    margin: 50px 0 175px;
     align-items: center;
     color: white;
-    background-color: rgb(0, 56, 241);
-    background-image: url("https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") ;
-    background-size: cover;
+}
+
+.aboutItem {
+    grid-column-start: 2;
+}
+
+.profileItem {
+grid-column-start: 3;
+grid-column-end: 5;
 }
 
 .michaelPic {
     margin: 38px 0 0;
-    width: 260px;
-    height: 260px;
+    width: 460px;
+    height: 460px;
     object-fit: cover;
     border-radius: 50%;
+
 }
 
 .name {
     margin: .6em 0em 0em;
     color: rgb(255, 255, 255);
-    font-family: 'Cormorant Garamond', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
     font-size: 48px;
-    font-weight: 300;
+    font-weight: 700;
+    font-style: italic;
     background-color:transparent;
 }
 
 .title {
-    margin:  2px 0 32px;
-    color:rgb(255, 255, 255);
-    font-family: 'Inter', sans-serif;
-    font-weight: 100;
-    background-color:transparent;
+    margin:  2px 0 20px;
+    font-family: 'Chakra Petch', sans-serif;
 }
