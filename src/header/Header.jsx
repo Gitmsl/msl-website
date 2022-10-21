@@ -5,6 +5,9 @@ import imageSrc from '../images/michael.jpg'
 export default function Header() {
     return(
         <div className="head">
+            <div className="openElementItem">
+                <i className="fa-solid fa-chevron-left"></i>
+            </div>
             <div className="aboutItem">
                 <h1 className="name">Hi, I'm Mike!</h1>
                 <p className="title">
@@ -21,9 +24,24 @@ export default function Header() {
                 </p>
             </div>
             <div className="profileItem">
-                <img src={imageSrc} alt="Michael LoCascio" className="michaelPic"/>
+                <img 
+                    src={imageSrc} 
+                    alt="Michael LoCascio" 
+                    className="michaelPic"
+                />
                 <h1 className="name"></h1>
                 <h3 className="title"></h3>
+            </div>
+            <div className="closedElementItem">
+                <span className='backslashSubitem'>/</span>
+                <i className="fa-solid fa-chevron-right"></i>
+            </div>
+            <div className='skillsItem'>
+                <h3 className='skillsItemTitle'>Skills:</h3>
+                <i className="htmlLogo fa-brands fa-html5"> HTML 5</i>
+                <i className="cssLogo fa-brands fa-css3-alt"> CSS 3</i>
+                <i className="jsLogo fa-brands fa-js"> Javascript</i>
+                <i className="reactLogo fa-brands fa-react"> React.js</i>
             </div>
         </div>
     )
