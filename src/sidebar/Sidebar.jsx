@@ -6,10 +6,6 @@ export default function Sidebar() {
         <>
         <div className='sidebarContainer'>
             <div className='sidebarVerticalLine'></div>
-            {/* goal for this component: 
-            sticky transparent sidebar component with:
-            two clickable social logos with centered
-            grey line top and bottom */}
         </div>
         <div className='socialsContainer'>
             <a 

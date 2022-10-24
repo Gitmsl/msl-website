@@ -2,32 +2,21 @@
 .head {
     display: grid;
     gap: 1.5rem;
-    /* grid-template-columns: repeat(5, 1fr); */
     grid-template-columns: 1fr 2fr 2fr 1fr;
     grid-template-rows: 1fr .25fr;
-    /* grid-template-areas: 
-        "left about  pic right"
-        ". skills skills ."
-        ; */
     width: 100%;
-    margin: 50px 0 100px;
     align-items: center;
     font-family: 'Chakra Petch', sans-serif;
     color: white;
 }
 
 .openElementItem {
-    /* grid-area: left; */
-    height: auto;
     margin-left: 10vw;
     font-size: 100px;
 }
 
 .aboutItem {
-    /* grid-area: about; */
     grid-column-start: 2;
-    /* grid-row-start: 1;
-    grid-row-end: 5; */
 }
 
 .profileItem {
@@ -47,7 +36,6 @@ grid-column-end: 4;
 
 .name {
     margin: .6em 0em 0em;
-    color: rgb(255, 255, 255);
     font-size: 48px;
     font-weight: 700;
     font-style: italic;
@@ -60,9 +48,6 @@ grid-column-end: 4;
 
 .closedElementItem {
     grid-column-start: 4;
-    /* grid-row-start: 1; */
-    /* height: auto; */
-    /* margin-right: 50px; */
     font-size: 100px;
 }
 
@@ -70,10 +55,10 @@ grid-column-end: 4;
     font-size: 150px;
 }
 
-.skillsItem {
+.skillsItemContainer {
     grid-column-start: 2;
     grid-column-end: 4;
-    font-size: 20px;
+    font-size: 25px;
     margin: 0 10px 30px 10px;
 }
 .skillsItem:hover {
@@ -81,46 +66,47 @@ grid-column-end: 4;
 }
 
 .skillsItemTitle {
+    font-size: 40px;
     font-weight: 300;
 }
 
 .htmlLogo {
     margin-right: 20px;
-    transition: 500ms ease-in-out;
 }
 
 .htmlLogo:hover {
     color: orange;
-    transition: 500ms ease-in-out;
 }
 
 .cssLogo {
     margin-right: 20px;
-    transition: 500ms ease-in-out;
 }
 
 .cssLogo:hover {
     color: rgb(0, 162, 255);
-    transition: 500ms ease-in-out;
 }
 
 .jsLogo {
     margin-right: 20px;
-    transition: 500ms ease-in-out;
 }
 
 .jsLogo:hover {
     color: rgb(255, 255, 0);
-    transition: 500ms ease-in-out;
 }
 
 .reactLogo {
     margin-right: 20px;
-    transition: 500ms ease-in-out;
 }
 
 .reactLogo:hover {
     color: rgb(0, 225, 255);
+}
+
+.skillItem {
+    transition: 500ms ease-in-out;
+}
+
+.skillItem:hover {
     transition: 500ms ease-in-out;
 }
 
