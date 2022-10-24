@@ -7,7 +7,7 @@
     margin: 0 auto;
     height: 50%;
     top: 25%;
-    left: 2%;
+    left: 30px;
     position: fixed;
     background: transparent;
 }
@@ -30,7 +30,7 @@
     height: 115px;
     margin: 0 auto;
     top: 42%;
-    left: .25%;
+    left: 5px;
     position: fixed;
     background-color: rgb(23, 23, 23) ;
 }
