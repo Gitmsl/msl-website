@@ -36,12 +36,12 @@ export default function Header() {
                 <span className='backslashSubitem'>/</span>
                 <i className="fa-solid fa-chevron-right"></i>
             </div>
-            <div className='skillsItem'>
+            <div className='skillsItemContainer'>
                 <h3 className='skillsItemTitle'>Skills:</h3>
-                <i className="htmlLogo fa-brands fa-html5"> HTML 5</i>
-                <i className="cssLogo fa-brands fa-css3-alt"> CSS 3</i>
-                <i className="jsLogo fa-brands fa-js"> Javascript</i>
-                <i className="reactLogo fa-brands fa-react"> React.js</i>
+                <i className="skillItem htmlLogo fa-brands fa-html5"> HTML 5</i>
+                <i className="skillItem cssLogo fa-brands fa-css3-alt"> CSS 3</i>
+                <i className="skillItem jsLogo fa-brands fa-js"> Javascript</i>
+                <i className="skillItem reactLogo fa-brands fa-react"> React.js</i>
             </div>
         </div>
     )
