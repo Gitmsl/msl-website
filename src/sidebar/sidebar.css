@@ -1,0 +1,56 @@
+.sidebarContainer {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid grey;
+    width: 1%;
+    top: 0;
+    margin: 0 auto;
+    height: 50%;
+    top: 25%;
+    left: 2%;
+    position: fixed;
+    background: transparent;
+}
+
+/* clearfix */
+.sidebarContainer::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.sidebarVerticalLine {
+    width: 1%;
+}
+
+.socialsContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    height: 115px;
+    margin: 0 auto;
+    top: 42%;
+    left: .25%;
+    position: fixed;
+    background-color: rgb(23, 23, 23) ;
+}
+
+.sidebarSocial {
+    font-size: 40px;
+    background-size: auto 75%;
+    margin: 8px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color .25s ease-in-out;
+}
+
+.fa-linkedin:hover {
+    color:rgb(0, 119, 181);
+    transition: color  .25s ease-in-out;
+}
+
+.fa-github-square:hover {
+    color:rgb(140, 140, 140);
+    transition: color  .25s ease-in-out;
+}
