@@ -1,21 +1,38 @@
+.portfolioLineContainer {
+    background-color: transparent;
+}
+.portfolioLine {
+    border-bottom: solid 1px grey;
+    width: 75vw;
+    height: 50px;
+    top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.portfolioContainer {
+    color: white;
+    background-color: transparent;
+}
+
 .portfolio {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 36px;
     color: white;
-    margin-bottom: 48px;
+    margin-bottom: 80px;
 }
 
 .portfolioTitle {
+    position:relative;
     text-align: center;
-    font-family: 'Oswald', sans-serif;
+    width: 200px;
+    font-family: 'Chakra Petch', sans-serif;
     font-size: 2.5rem;
-    color: white;
-    border: solid 6px ; /*placeholder section separator*/
-    border-image-source: linear-gradient(to bottom right, rgb(66, 205, 255), rgb(0, 0, 255) );
-    border-image-slice: 4;
-    margin: 0 0 8px;
+    font-style: italic;
+    margin: auto;
+    background-color: rgb(23, 23, 23);
 }
 
 .portfolioItem {
@@ -35,7 +52,7 @@
 }
 
 .portfolioItem:hover {
-    box-shadow: 0px 0px 30px 8px rgb(0, 208, 255);
+    box-shadow: 0px 6px 25px rgba(0, 133, 255, 0.5);
     transition: box-shadow .5s ease-in-out;
 }
 
