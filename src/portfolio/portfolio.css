@@ -1,6 +1,7 @@
 .portfolioLineContainer {
     background-color: transparent;
 }
+
 .portfolioLine {
     border-bottom: solid 1px grey;
     width: 75vw;
@@ -10,6 +11,7 @@
     margin-right: auto;
     position: relative;
 }
+
 .portfolioContainer {
     color: white;
     background-color: transparent;
@@ -17,11 +19,13 @@
 
 .portfolio {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    /* justify-content: center; */
     flex-wrap: wrap;
     gap: 36px;
-    color: white;
-    margin-bottom: 80px;
+    /* color: white; */
+    margin: 0 auto 80px;
 }
 
 .portfolioTitle {
@@ -29,7 +33,7 @@
     text-align: center;
     width: 200px;
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 2.5rem;
+    font-size: 40px;
     font-style: italic;
     margin: auto;
     background-color: rgb(23, 23, 23);
@@ -37,61 +41,68 @@
 
 .portfolioItem {
     color: white;
-    flex-basis: 255px;
-    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    /* flex-basis: 255px; */
     display: flex;
-    flex-direction: column;
-    padding: 13px;
-    padding-bottom: 20px;
+    flex-direction: row;
+    gap: 50px;
+    /* padding: 13px; */
+    /* padding-bottom: 20px; */
     margin-top: 20px;
     /* margin-bottom: 48px; */
-    border-radius: 3%;
-    background-color: rgb(43, 43, 43);
+    /* border-radius: 3%; */
+    /* background-color: rgb(43, 43, 43); */
     text-decoration: none;
     transition: box-shadow .5s ease-in-out;
 }
 
 .portfolioItem:hover {
-    box-shadow: 0px 6px 25px rgba(0, 133, 255, 0.5);
+    box-shadow: 0 0 15px rgba(0, 133, 255, 0.5);
     transition: box-shadow .5s ease-in-out;
 }
 
 .portfolioImg {
-    width: 100%;
+    width: 45%;
     height: auto;
     align-self: center;
     object-fit: cover;
 }
 
 #itemText {
-    height: 94px;
-    font-family: 'Inter', sans-serif;
-    text-align: center;
+    /* height: 94px; */
+    width: 45%;
+    /* margin-left: 10px; */
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: left;
     text-decoration: none;
 }
 
 .projTitle {
-    font-size: 18px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 100;
-    text-align: center;
+    /* width: 45%; */
+    font-size: 30px;
+    font-family: 'Chakra Petch', sans-serif;
+    /* font-weight: 100; */
+    /* text-align: center; */
     text-decoration: none;
-    border: solid 3px;
-    border-image-source: linear-gradient(to bottom right, rgb(66, 205, 255), rgb(0, 0, 255) );
-    border-image-slice: 4;
+    /* border-bottom: 1px solid grey; */
+    /* margin: 0 25px; */
+    /* border-image-source: linear-gradient(to bottom right, rgb(66, 205, 255), rgb(0, 0, 255) );
+    border-image-slice: 4; */
 }
 
 .itemDescription {
     font-size: 16px;
-    padding: 3px 8px;
+    /* padding: 3px 8px; */
 }
 
 .techUsed {
-    display: inline-flex;
-    gap: 25px;
-    padding: 0 8px;
-    margin-bottom: 10px;
-    border-top: 1px solid grey;
-    justify-content: center;
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 16px;
+    /* display: inline-flex; */
+    /* gap: 25px; */
+    /* padding: 0 8px; */
+    /* margin-bottom: 10px; */
+    /* border-top: 1px solid grey; */
+    /* justify-content: center; */
 }
 
