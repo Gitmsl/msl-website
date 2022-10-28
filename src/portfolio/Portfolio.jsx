@@ -14,7 +14,8 @@ export default function Portfolio() {
                 <h1 className="portfolioTitle">Portfolio</h1>
                 <div className="portfolio">
                     <PortfolioItem
-                        projLink="https://github.com/Gitmsl/msl-website"
+                        siteLink="http://localhost:3000"
+                        gitLink="https://github.com/Gitmsl/msl-website"
                         img={portImg}
                         projTitle="Portfolio Website"
                         itemDescription="I built my personal website with a 
@@ -24,21 +25,18 @@ export default function Portfolio() {
                         projects (previous version shown). "
                         techUsed="HTML - CSS - React.js"
                     />
-                    {/* comment out below two after formatting */}
-                    <PortfolioItem
-                        projLink=""
-                        img={portImg}
-                        projTitle="Project2"
-                        itemDescription="Project built for the purpose of solving X problem, provide Y solution"
-                        techUsed="HTML, CSS, React"
-                    />
-                    <PortfolioItem
-                        projLink=""
-                        img={portImg}
-                        projTitle="Project3"
-                        itemDescription="Project built for the purpose of solving X problem, provide Y solution"
-                        techUsed="HTML, CSS, React"
-                    />
+                    {/* <PortfolioItem
+                        siteLink="http://livewebsitelinkhere"
+                        gitLink="https://github.com/Gitmsl/project-link"
+                        img={import variable name at top, from source in ../images/}
+                        projTitle="Portfolio Website Title"
+                        itemDescription="I built my personal website with a 
+                        simple objective in mind: to provide a clear, easy to 
+                        navigate layout with easy access to important links; my 
+                        resume, LinkedIn account, Github profile, and portfolio 
+                        projects (previous version shown). "
+                        techUsed="HTML - CSS - React.js"
+                    /> */}
                 </div>
             </div>
         </>
