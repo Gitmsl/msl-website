@@ -8,6 +8,7 @@
     height: 50px;
     position: sticky;
     top: 0;
+    opacity: .95;
     background-color: rgb(42, 42, 42);
     display: flex;
     align-items: center;
@@ -15,6 +16,7 @@
     font-family: 'Chakra Petch', sans-serif;
     font-size: 20px;
     box-shadow: 0px 6px 25px rgba(0, 133, 255, 0.25);
+    z-index: 1;
 }
 
 .topLeft {
