@@ -52,12 +52,6 @@
     /* border-radius: 3%; */
     /* background-color: rgb(43, 43, 43); */
     text-decoration: none;
-    transition: box-shadow .5s ease-in-out;
-}
-
-.portfolioItem:hover {
-    box-shadow: 0 0 15px rgba(0, 133, 255, 0.5);
-    transition: box-shadow .5s ease-in-out;
 }
 
 .portfolioImg {
@@ -97,12 +91,39 @@
 .techUsed {
     font-size: 25px;
     font-style: italic;
-    margin-top: 16px;
+    margin: 16px 0;
     /* display: inline-flex; */
     /* gap: 25px; */
     /* padding: 0 8px; */
     /* margin-bottom: 10px; */
     /* border-top: 1px solid grey; */
     /* justify-content: center; */
+}
+
+.portfolioItemButtonContainer {
+    padding: 5px 10px;
+    margin: 16px 16px 8px 0;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: rgb(42, 42, 42);
+    border: 1px solid;
+    transition: background-color .5s ease-in-out;
+}
+
+.portfolioItemButtonContainer:hover {
+    background-color: rgb(70, 70, 70);
+    transition: background-color .5s ease-in-out;
+}
+
+.buttonInterior {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: Chakra Petch;
+    font-size: 18px;
+    border: none;
+    margin: 0;
+    cursor: pointer;
+    /* padding: 5px 10px; */
 }
 
