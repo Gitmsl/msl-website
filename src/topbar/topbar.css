@@ -12,7 +12,6 @@
     background-color: rgb(42, 42, 42);
     display: flex;
     align-items: center;
-    text-align: center;
     font-family: 'Chakra Petch', sans-serif;
     font-size: 20px;
     box-shadow: 0px 6px 25px rgba(0, 133, 255, 0.25);
@@ -34,7 +33,7 @@
     font-size: 25px;
     text-decoration: none;
     color: white;
-    filter: blur(1.5px);
+    filter: blur(0px);
 }
 
 .topInitials:hover {
@@ -53,6 +52,7 @@
 
 .topCenter {
     flex: 6;
+    background-color: transparent;
 }
 
 .topList {
@@ -62,14 +62,19 @@
     padding: 0;
     list-style: none;
     color: white;
+    background-color: transparent;
 }
 
 .topListItem {
-    margin-right: 4vw;
-    margin-left: 1.5vw;
+    margin: 5px 4vw 0 1.5vw;
     font-size: .6em;
     font-weight: 300;
     cursor: pointer;
+    background-color: transparent;
+}
+
+li {
+    background-color: transparent;
 }
 
 .linkStyle {
@@ -77,17 +82,15 @@
     text-decoration: none;
 }
 
+
 @media screen and (min-width: 480px) { /* for screens b/w large smartphones & tablet*/
     .top{
     width: 100%;
-    height: auto;
-    /* background-color: rgb(141, 139, 255); Color change to make screen size apparent */
+    height: 50px;
+    opacity: .95;
     position: sticky;
-    top: 0;
     display: flex;
-    align-items: center;
     font-family: 'Chakra Petch', sans-serif;
-    font-size: 20px;
 }
 
 .topLeft {
@@ -96,6 +99,17 @@
     align-items: center;
     justify-content: center;
 }
+
+.topInitials {
+    background-color: transparent;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    filter: blur(0px);
+}
+
 
 .topSocialIcon {
     font-size: 2em;
@@ -106,13 +120,14 @@
 
 .topCenter {
     flex: 6;
+    background-color: transparent;
 }
 
 .topList {
     display: flex;
     justify-content: flex-end;
-    margin: 0;
-    padding: 0;
+    margin: 0 30px;
+    background-color: transparent;
     list-style: none;
 }
 
@@ -120,7 +135,9 @@
     margin-right: 20px;
     font-size: 80%;
     font-weight: 300;
-    cursor: pointer;
+    vertical-align: center;
+    cursor: default;
+    background-color: transparent;
 }
 
 .linkStyle {
@@ -147,6 +164,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.topInitials {
+    background-color: transparent;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    filter: blur(1.5px);
+}
+
+.topInitials:hover {
+    filter: blur(0);
+    transition: filter .5s ease-in-out;
 }
 
 .topSocialIcon {
