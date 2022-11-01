@@ -21,10 +21,8 @@
     display: flex;
     flex-direction: row;
     width: 80%;
-    /* justify-content: center; */
     flex-wrap: wrap;
     gap: 36px;
-    /* color: white; */
     margin: 0 auto 80px;
 }
 
@@ -41,16 +39,10 @@
 
 .portfolioItem {
     color: white;
-    /* flex-basis: 255px; */
     display: flex;
     flex-direction: row;
     gap: 50px;
-    /* padding: 13px; */
-    /* padding-bottom: 20px; */
     margin-top: 20px;
-    /* margin-bottom: 48px; */
-    /* border-radius: 3%; */
-    /* background-color: rgb(43, 43, 43); */
     text-decoration: none;
 }
 
@@ -62,42 +54,28 @@
 }
 
 #itemText {
-    /* height: 94px; */
     width: 45%;
-    /* margin-left: 10px; */
+    margin-left: 10px;
     font-family: 'Chakra Petch', sans-serif;
     text-align: left;
     text-decoration: none;
 }
 
 .projTitle {
-    /* width: 45%; */
     font-size: 30px;
     font-family: 'Chakra Petch', sans-serif;
-    /* font-weight: 100; */
-    /* text-align: center; */
     text-decoration: none;
-    /* border-bottom: 1px solid grey; */
-    /* margin: 0 25px; */
-    /* border-image-source: linear-gradient(to bottom right, rgb(66, 205, 255), rgb(0, 0, 255) );
-    border-image-slice: 4; */
 }
 
 .itemDescription {
     font-size: 16px;
-    /* padding: 3px 8px; */
+    padding: 6px 0px;
 }
 
 .techUsed {
     font-size: 25px;
     font-style: italic;
     margin: 16px 0;
-    /* display: inline-flex; */
-    /* gap: 25px; */
-    /* padding: 0 8px; */
-    /* margin-bottom: 10px; */
-    /* border-top: 1px solid grey; */
-    /* justify-content: center; */
 }
 
 .portfolioItemButtonContainer {
@@ -124,6 +102,117 @@
     border: none;
     margin: 0;
     cursor: pointer;
-    /* padding: 5px 10px; */
 }
 
+@media screen and (max-width: 934px) {
+    .portfolioLineContainer {
+        background-color: transparent;
+    }
+    
+    .portfolioLine {
+        border-bottom: solid 1px grey;
+        width: 75vw;
+        height: 50px;
+        top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        background-color: transparent;
+    }
+    
+    .portfolioContainer {
+        color: white;
+        background-color: transparent;
+    }
+    
+    .portfolio {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        flex-wrap: wrap;
+        gap: 36px;
+        margin: 0 auto 80px;
+    }
+    
+    .portfolioTitle {
+        position:relative;
+        text-align: center;
+        width: 200px;
+        font-family: 'Chakra Petch', sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        margin: auto;
+        background-color: rgb(23, 23, 23);
+    }
+    
+    .portfolioItem {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 40px;
+        margin-left: 8px;
+        text-decoration: none;
+    }
+    
+    .portfolioImg {
+        position: absolute;
+        right: 30px;
+        width: 65%;
+        height: auto;
+        align-self: center;
+        object-fit: cover;
+        opacity: 0.2;
+    }
+    
+    #itemText {
+        width: 95%;
+        margin-left: 10px;
+        font-family: 'Chakra Petch', sans-serif;
+        text-align: left;
+        text-decoration: none;
+    }
+    
+    .projTitle {
+        font-size: 30px;
+        font-family: 'Chakra Petch', sans-serif;
+        text-decoration: none;
+    }
+    
+    .itemDescription {
+        font-size: 16px;
+        padding: 6px 0px;
+    }
+    
+    .techUsed {
+        font-size: 25px;
+        font-style: italic;
+        margin: 16px 0;
+    }
+    
+    .portfolioItemButtonContainer {
+        padding: 5px 10px;
+        margin: 16px 16px 8px 0;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        background-color: rgb(42, 42, 42);
+        border: 1px solid;
+        transition: background-color .5s ease-in-out;
+    }
+    
+    .portfolioItemButtonContainer:hover {
+        background-color: rgb(70, 70, 70);
+        transition: background-color .5s ease-in-out;
+    }
+    
+    .buttonInterior {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+        font-family: Chakra Petch;
+        font-size: 18px;
+        border: none;
+        margin: 0;
+        cursor: pointer;
+    }
+}
