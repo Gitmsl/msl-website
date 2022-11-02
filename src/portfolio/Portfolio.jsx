@@ -14,7 +14,7 @@ export default function Portfolio() {
                 <h1 className="portfolioTitle">Portfolio</h1>
                 <div className="portfolio">
                     <PortfolioItem
-                        siteLink="http://localhost:3000"
+                        siteLink="http://michaellocascio.com"
                         gitLink="https://github.com/Gitmsl/msl-website"
                         img={portImg}
                         projTitle="Portfolio Website"
