@@ -6,6 +6,10 @@ Second major iteration of Michael LoCascio's software engineering portfolio webs
 
 ## Designed interface with design tool Figma
 
+
+https://user-images.githubusercontent.com/96447034/207236801-13a1a89e-d434-4589-84ae-0c45a88aa9ea.MP4
+
+
 With the use of Figma, I was able to place my original website design side-by-side with what I envisioned for the updated version of my project. The goals I set for this update included:
 
 * Maximizing screen real estate by taking greater advantage of horizontal space (namely by placing my profile image next to my about-me section for larger displays)
