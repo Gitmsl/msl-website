@@ -18,7 +18,7 @@ export default function TopBar() {
             <li className="topListItem">MICHAEL.S.LOCASCIO@GMAIL.COM</li>
             <li>
               <a 
-                href="https://drive.google.com/file/d/1s7JA_iYs3_nUji4qqR2_1jmfKuWFps1a/view?usp=sharing" 
+                href="https://drive.google.com/file/d/1E8Yak886sq45DtrLBzDuMZOZTHEhh4ER/view?usp=sharing" 
                 target="_blank" rel="noreferrer" 
                 className="resumeButton">
                 Resume
